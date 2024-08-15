@@ -101,9 +101,10 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
-                <&macro_press>,
+                <&macro_tap>,
                 <&kp C>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LCTRL>;
 
             label = "CTRL_C";
         };
@@ -114,9 +115,10 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
-                <&macro_press>,
+                <&macro_tap>,
                 <&kp L>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LCTRL>;
 
             label = "CTRL_L";
         };
