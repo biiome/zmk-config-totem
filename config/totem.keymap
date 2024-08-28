@@ -114,11 +114,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL>,
+                <&kp LCTRL &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp L>,
                 <&macro_release>,
-                <&kp LCTRL>;
+                <&kp LCTRL &kp LEFT_ALT>;
 
             label = "CTRL_L";
         };
